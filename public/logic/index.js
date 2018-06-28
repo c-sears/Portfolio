@@ -35,5 +35,20 @@ $(()=>{
     })
 
 
+    $(window).scroll(e =>{
+        const viewport_height = $(window).innerHeight()
+        const distance = $('html').scrollTop()
+        const navbar = $('.navbar_container')
+
+        if(distance >= viewport_height) {
+            $(navbar).removeClass('remove_nav')
+            $(navbar).addClass('show_nav')
+        } else {
+            $(navbar).removeClass('show_nav')
+            $(navbar).addClass('remove_nav')
+        }
+    })
+
+
 })
   
