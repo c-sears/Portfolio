@@ -210,7 +210,7 @@ body {
     font-family: 'Questrial', sans-serif;
     font-size: 1.9em;
     border-bottom: 2px solid #fff;
-    text-shadow: 5px 2px 3px #22222260;
+    /* text-shadow: 5px 2px 3px #22222260; */
 }
 
 .text_container {
@@ -218,7 +218,7 @@ body {
     height: fit-content;
     margin: 20px auto;
     text-align: justify;
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Questrial', sans-serif;
     color: #fff;
     font-size: 1.3em;
 }
