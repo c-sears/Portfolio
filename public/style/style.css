@@ -133,6 +133,10 @@ body {
     width: 20%;
 }
 
+.invert_color {
+    filter: invert(100);
+}
+
 /* ABOUT ME PAGE */
 /* =========================================== */
 .about_me_page {

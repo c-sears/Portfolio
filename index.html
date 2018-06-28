@@ -39,12 +39,12 @@
                     <p>Developer</p>
                 </div>
                 <div class="info_box">
-                    <img src="./public/style/images/collaborate-icon.svg" alt="Coder">
-                    <p>Team Player</p>
+                    <img src="./public/style/images/collaborate-icon.svg" alt="Team Player">
+                    <p>Goal-Oriented</p>
                 </div>
                 <div class="info_box">
-                    <img src="./public/style/images/coding_icon.svg" alt="Coder">
-                    <p>Something cool</p>
+                    <img class="invert_color" src="./public/style/images/prob_solver_icon.png" alt="Problem Solver">
+                    <p>Problem Solver</p>
                 </div>
             </div>
         </div>
@@ -167,7 +167,7 @@
                     <div class="bkg_img" id="crossbite"></div>
                     <div class="project_overlay">
                         <h3>CROSS BITE</h3>
-                        <p>I had the opportunity to work with an amazing team while creating this meal planner application.</p>
+                        <p>I had the opportunity to work with an amazing team while creating this meal planning application.</p>
                         <p>Navigating authentication on the web proved to be a rewarding challenge. I have been able to take the lessons learned from this to further improve my craft.</p>
                     </div>
                 </a>
@@ -219,7 +219,7 @@
             </div>
 
             <div class="form_container">
-                <form action="#">
+                <form id="my_form" action="#">
                     <label class="floating_label" for="name">your name:</label>
                     <input class="user_input" type="text" name="name" id="name" autocomplete="none">
                     
@@ -253,6 +253,10 @@
         </footer>
     </div>
 
-    <script src="./logic/index.js"></script>
+    
+    <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-database.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./public/logic/index.js"></script>
 </body>
 </html>
