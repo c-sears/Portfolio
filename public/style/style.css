@@ -196,35 +196,6 @@ body {
     z-index: 10;
 }
 
-/* .test_navbar {
-    position: fixed;
-    transform-origin: top left;
-    transform: rotate(-90deg) translateX(-100%);
-    width: 100vh;
-    height: 12%;
-    background: #f0eff0;
-    border-left: 2px solid #111;
-    z-index: 50;
-}
-
-.navbar_links {
-    position: relative;
-    outline: 2px solid red;
-    width: 100%;
-    height: 100%;
-    list-style: none;
-    font-family: 'Homenaje';
-    color: #111;
-    font-size: 2em;
-}
-
-.navbar_links li {
-    width: fit-content;
-    margin-top: 20px;
-    margin-left: 4%;
-    display: inline-block;
-} */
-
 .my_info {
     width: fit-content;
     margin: 0 auto;
@@ -663,6 +634,7 @@ body {
     height: 20vh;
     background: var(--red-bkg);
     margin-top: 10%;
+    min-width: 100vw;
     box-shadow: 0 5px 15px #111 inset;
     display: grid;
     grid-template-columns: auto auto;
@@ -722,3 +694,120 @@ body {
 
 /* END FOOTER */
 /* =========================================== */
+
+
+
+@media only screen and (max-width: 1120px) {
+    
+    .page_title {
+        margin-bottom: 10%;
+    }
+
+    .grid_container {
+        margin-top: 4%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+
+    .tools_icon {
+        width: 160px;    
+    }
+}
+
+@media only screen and (max-width: 819px) {
+    
+    .my_info {
+        margin-top: 10%;
+    }
+    
+    .my_name {
+        font-size: 3em;
+    }
+
+    .my_name:hover {
+        font-size: 3em;
+    }
+
+    .my_title p {
+        font-size: .7em;
+    }
+
+    .page_body {
+        grid-template-columns: auto;
+        text-align: center;
+        margin-top: 15%;
+    }
+
+    .grid_container {
+        grid-template-columns: auto auto;
+    }
+
+    .form_container {
+        width: 40%;
+    }
+
+    .tools_icon {
+        width: 140px;
+    }
+
+    .footer {
+        font-size: .8em;
+    }
+
+    .footer div {
+        padding-top: 12%;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .my_name {
+        width: 100%;
+    }
+    
+    .my_info {
+        margin-top: 30%;
+    }
+    
+    .info_box p {
+        font-size: .6em;
+    }
+
+    .footer {
+        padding-top: 500px;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    .info_box {
+        width: 30%;
+    }
+
+    .info_box p {
+        font-size: .45em;
+    }
+
+    .page_title {
+        font-size: 1em;
+    }
+
+    .page_body {
+        margin-top: 20%;
+    }
+    
+    .page_body h2 {
+        font-size: 1.5em;
+    }
+
+    .tools_page_body {
+        margin-top: 20%;
+    }
+
+}
