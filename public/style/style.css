@@ -746,8 +746,12 @@ body {
         grid-template-columns: auto auto;
     }
 
+    .contact_page {
+        margin-bottom: 14%;
+    }
+
     .form_container {
-        width: 40%;
+        width: 55%;
     }
 
     .tools_icon {
@@ -759,7 +763,7 @@ body {
     }
 
     .footer div {
-        padding-top: 12%;
+        padding-top: 8%;
     }
 
 }
@@ -768,18 +772,42 @@ body {
 
     .my_name {
         width: 100%;
+        font-size: 3.5em;
     }
     
     .my_info {
         margin-top: 30%;
+        width: 83vw;
+    }
+
+    .my_title {
+        margin: 10px auto;
     }
     
     .info_box p {
-        font-size: .6em;
+        font-size: .8em;
+    }
+
+    .info_box img {
+        width: 33%;
+    }
+
+    .form_container {
+        width: 65%;
+    }
+
+    .contact_page {
+        margin-bottom: 17%;
+    }
+
+    .quick_links {
+        margin: 0 auto;
     }
 
     .footer {
-        padding-top: 500px;
+        padding-top: 15px;
+        height: fit-content;
+        display: block;
     }
 
 }
