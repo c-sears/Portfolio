@@ -792,6 +792,10 @@ body {
         width: 33%;
     }
 
+    .tools_icon {
+        width: 110px;
+    }
+
     .form_container {
         width: 65%;
     }
@@ -802,6 +806,10 @@ body {
 
     .quick_links {
         margin: 0 auto;
+    }
+
+    .quick_info {
+        padding-bottom: 25px;
     }
 
     .footer {
